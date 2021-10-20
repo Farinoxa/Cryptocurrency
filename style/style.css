@@ -1,0 +1,962 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body,
+html {
+    width: 100%;
+    min-width: 1440px;
+    min-height: 100vh;
+    background-color: #0D0D2B;
+    margin: 0;
+}
+.header-wrapper {
+    width: 1200px;
+    height: 850px;
+    margin: auto;
+}
+.top {
+    display: flex;
+    width: 1202px;
+    margin: auto;
+}
+.logo {
+    display: flex;
+    margin-top: 66px;
+
+}
+.logo__text {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    margin-left: 16px;
+    margin-top: 9px;
+}
+.nav {
+    display: flex;
+    margin-left: 451px;
+    margin-top: 72px;
+    justify-content: space-between;
+    height: 28px;
+    width: 339px;
+    
+}
+.nav-link, a {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+    text-decoration: none;
+    
+}
+.singIn {
+    display: flex;
+    width: 221px;
+    height: 52px;
+    margin-left: 56px;
+    margin-top: 60px;
+    list-style: none;
+}
+.login {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 43px;
+    height: 24px;
+    border-right: 1px solid #F2F2F2;
+    padding-right: 24px;
+}
+.register {
+    margin-left: 24px;
+    width: 130px;
+    height: 52px;
+    background: #3671E9;
+    border-radius: 32px;
+    border: none;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+    text-align: center;
+}
+.header__section {
+    display: flex;
+}
+.value__proposition {
+    width: 588px;
+    height: 468px;
+    margin-top: 131px;
+}
+.text-75 {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #0D0D2B;
+    background-color: #FFFFFF;
+    border-radius: 32px;
+    width: 113px;
+    height: 32px;
+    margin-left: 4px;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+}
+.text_save {
+    line-height: 28px;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+    width: 365px;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text_sale{
+    width: 222px;
+    height: 28px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+    padding: 8px 11px 4px 16px;
+}
+.title {
+    width: 588px;
+    height: 228px;
+    margin-top: 24px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 76px;
+    color: #FFFFFF;
+}
+.header_text {
+    width: 435px;
+    height: 56px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+    color: #E0E0E0;
+    margin-top: 24px;
+}
+.button_class1 {
+    width: 202px;
+    height: 64px;
+    background: #3671E9;
+    border-radius: 32px;
+    border: none;
+    display: flex;
+    margin-top: 32px;
+}
+.text-button_class1 {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 18.5px 24px 18.5px 24px;
+}
+.button_arrow {
+    width: 32px;
+    height: 32px;
+    padding: 16px 0px;
+}
+.numbers {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1200px;
+    height: 92px;
+    margin: auto;
+    margin-top: 100px;
+}
+.number {
+    display: flex;
+    align-items: center;
+    width: 334px;
+    height: 92px;
+}
+h2 {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+.numbers p {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+    color: #E0E0E0;
+}
+.number-logo {
+    margin-right: 24px;
+}
+.Why-Crappo_Content {
+    display: flex;
+    width: 1200px;
+    height: 473px;
+    margin: auto;
+    margin-top: 100px;
+}
+.Why-Crappo_Text h2 {
+    width:480px;
+    height: 119,95px;
+}
+.Why-Crappo_Text p {
+    margin-top: 24px;
+    width: 408px;
+    height: 83,96px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+    color: #E0E0E0;
+}
+.Why-Crappo_Text {
+    margin-top: 77px;
+    margin-left: 70px;
+}
+.button__learn-more {
+    width: 146px;
+    height: 59px;
+    background: #3671E9;
+    border-radius: 32px;
+    border: none;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 48px;
+}
+.Trade-securely {
+    height: 1490px;
+    background:linear-gradient(180deg, rgba(13, 13, 43, 1) 30.67%, rgba(250, 251, 255, 1) 30.67%);    
+}
+.Trade-securely_title {
+    width: 741px;
+    height: 138px;
+    margin: auto;
+    padding-top: 100px;
+}
+.Trade-securely_title h2 {
+    text-align: center;
+}
+.Trade-securely_title p {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    color: #E0E0E0;
+    margin-top: 24px;
+}
+.calculate {
+    width: 942px;
+    height: 371px;
+    margin: auto;
+    margin-top: 64px;
+    background-color: #FBFCFE;
+    filter: drop-shadow(0px 20px 200px rgba(57, 23, 119, 0.05));
+    border-radius: 16px 16px 16px 16px;
+}
+.Enter-hash-rate__input-text {
+    margin-top: 62px;
+    margin-left: 48px;
+    margin-bottom: 55px;
+    width: 403px;
+    height: 38px;
+    border: none;
+    border-bottom: 1px solid #E0E0E0;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 150%;
+    background-color: transparent;
+    color: #0D0D2B;
+}
+.Enter-hash-rate__input-rate {
+    width: 200px;
+    height: 38px;
+    margin-top: 62px;
+    margin-left: 48px;
+    margin-bottom: 55px;
+    border: none;
+    border-bottom: 1px solid #E0E0E0;
+    background-color: transparent;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 150%;
+    color: #0D0D2B;
+}
+
+.button-calc {
+    width: 147px;
+    height: 59px;
+    background: #3671E9;
+    border-radius: 32px;
+    border: none;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+    margin-left: 48px;
+}
+.calculate__body-t1 {
+    margin-top: 48px;
+    margin-left: 48px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #3671E9;
+}
+.calculate__body-t2 {
+    margin-top: 16px;
+    margin-left: 48px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    color: #0D0D2B;
+}
+.calculate__body-t2 span {
+    color: #3671E9;
+}
+.calculate__body-t3 {
+    margin-top: 4px;
+    margin-left: 48px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+    color: #828282;
+}
+.Cryptocurrencies {
+    width: 1200px;
+    height: 617px;
+    margin: auto;
+}
+.Cryptocurrencies h2 {
+    width: 741px;
+    height: 120px;
+    margin: auto;
+    margin-top: 100px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 150%;
+    text-align: center;
+    color: #0D0D2B;
+}
+.coin_BTC {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 370px;
+    height: 433px;
+    border-radius: 16px;
+    background-color: #fff;
+    padding: 48px 24px;
+}
+.coin_BTC img {
+    margin-top: 48px;
+}
+.coin__item-title {
+    margin-top: 48px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 150%;
+    text-align: center;
+    color: #0D0D2B;
+}
+.coin__item-title sup {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    color: #BDBDBD;
+}
+.sup {
+    position: relative;
+    vertical-align: bottom;
+    top: -0.5em;
+}
+.coin__item-description {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #828282;
+}
+.button_coin-act {
+    width: 205px;
+    height: 64px;
+    background: #3671E9;
+    border-radius: 32px;
+    border: none;
+    display: flex;
+    margin-top: 32px;
+}
+.button_coin {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background: transparent;
+    border-color: transparent;
+}
+.text-button_coin-act {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 18.5px 24px 18.5px 24px;
+}
+.button_coin-arrow {
+    width: 64px;
+    height: 64px;
+}
+.coins__type {
+    min-width: 1200px;
+    padding-top: 64px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.coin {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 370px;
+    height: 433px;
+    border-radius: 16px;
+    background-color: #fff;
+    padding: 48px 24px;
+}
+.Features h2 {
+    width: 758px;
+    height: 120px;
+    margin: auto;
+    padding-top: 100px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+}
+.Features {
+    height: 1874px;
+    background-color: #2B076E;
+}
+.Invest__Smart {
+    width: 1134px;
+    height: 427px;
+    margin-left: 120px;
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+.Invest__Smart-text p {
+    width: 408px;
+    height: 56px;
+}
+.features-h3 {
+    width: 454px;
+    height: 48px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+.features-p {
+    margin-top: 24px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+    color: #E0E0E0;
+}
+.features-button__learn {
+    width: 161px;
+    height: 59px;
+    margin-top: 32px;
+    background: #3671E9;
+    border-radius: 32px;
+    border: none;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+}
+.detailed__statistics {
+    width:1255px;
+    height: 453px;
+    display: flex;
+    padding-top: 120px;
+    margin: auto;
+}
+.detailed__statistics-text {
+    width: 456px;
+    height: 247px;
+    margin-left: 89px;
+    margin-top: 105px;
+}
+.detailed__statistics-text p {
+    width: 408px;
+    height: 84px;
+}
+.Invest__Smart-text {
+    width: 454px;
+    height: 219px;
+    margin-top: 40px;
+}
+.grow__profit {
+    width: 1200px;
+    height: 334px;
+    margin: auto;
+    margin-top: 120px;
+    display: flex;
+}
+.grow__profit-text {
+    width: 454px;
+    height: 295px;    
+}
+.grow__profit-text h3 {
+    width: 454px;
+    height: 96px;
+}
+.grow__profit-text p {
+    width: 408px;
+    height: 84px;
+}
+.Start__mining {
+    width: 1440px;
+    height: 392px;
+    margin: auto;
+}
+.Start__mining-container {
+    width: 1200px;
+    height: 216px;
+    margin: auto;
+    margin-top: 88px;
+    display: flex;
+    align-items:center;
+    background: #3671E9;
+    border-radius: 16px;
+}
+.Start__mining-text h3 {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 150%;
+    color: #FFFFFF;
+    width: 501px;
+    height: 48px;
+}
+.Start__mining-text p {
+    width: 348px;
+    height: 56px;
+    margin-top: 16px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+}
+.Start__mining-wrapper {
+    width: 1104px;
+    height: 120px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.form_email {
+    width: 566px;
+    height: 55px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 0 0 566px;
+}
+.form_email-input {
+    font-size: 16px;
+    border: none;
+    border-bottom: 1px solid #FFFFFF;
+    background-color: transparent;
+    color: #FFFFFF;
+    width: 100%;
+    margin-right: 40px;
+    padding: 10px 0;
+}
+.form_email-input>placeholder {
+    color: white;
+}
+.form_email-btn {
+    border: none;
+    background-color: #FFFFFF;
+    color: #0D0D2B;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 18px 32px;
+    border-radius: 32px;
+}
+
+
+.footer {
+    background: #0d0d2b;
+    margin-top: 80px;
+}
+  
+.footer-container__1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-container__1>div {
+    margin-top: 0px;
+
+}
+  
+.standard-list {
+    width: 200px;
+    margin-right: 35px;
+}
+  
+.standard-list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    color: #ffffff;
+}
+  
+.standard-list ul a {
+    text-decoration: none;
+    font-family: Rubik;
+    font-size: 16px;
+    line-height: 38px;
+    color: #e0e0e0;
+}
+  
+.kind-of-pays {
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-between;
+}
+  
+.footer-logo {
+    margin-right: 171px;
+}
+  
+.cards-pay {
+    margin-left: 69px;
+    width: 355px;
+}
+  
+.accept-pays {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+  
+.standard-list__span {
+    margin-bottom: 24px;
+}
+.standard-list__span>span {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    color: #FFFFFF;
+} 
+  
+.footer-container__2 {
+    margin-top: 120px;
+    padding-bottom: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+  
+.social-links {
+    margin-right: 120px;
+    width: 248px;
+    display: flex;
+    justify-content: space-between;
+}
+  
+.social-links a {
+    text-decoration: none;
+}
+  
+.copyright {
+    margin-left: 120px;
+    font-family: Rubik;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+}
+
+.copyright>span {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+}
+.footer-container_main {
+    width: 1440px;
+    margin: auto;
+
+}
+
+
+
+@media screen and (max-width: 600px){
+    .header-wrapper {
+        height: auto;
+    }
+    .nav__menu{
+        margin: 0 0 0 62px;
+    }
+    .nav{
+        margin-left: 0;
+    }
+    .top {
+        justify-content: center;
+    }
+    .header__section {
+        flex-direction: column;
+        align-items:center;
+        height: auto;
+    }
+    .numbers{
+        flex-direction: column;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        height: auto;
+    }
+    .number{
+        margin: 25px 0;
+    }
+    .Why-Crappo_Content{
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+    }
+    .Why-Crappo_Text{
+        margin-left: 0;
+        text-align: center;
+    }
+    .Why-Crappo_Text>p{
+        margin: 24px auto 0;
+    }
+    .coins__type {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        
+    }
+    .Trade-securely {
+        height: auto;
+        background: linear-gradient(180deg, rgba(13, 13, 43, 1) 20%, rgba(250, 251, 255, 1) 20%);
+    }
+    .Invest__Smart {
+        flex-direction: column-reverse;
+    }
+    .Features>div{
+        height: auto;
+        align-items: center;
+        text-align: center;
+    }
+    .Features>div p{
+        margin: 0;
+    }
+    .detailed__statistics {
+        flex-direction: column;
+        margin: 120px auto 0;
+    }
+    .detailed__statistics-text{
+        margin-left: 0;
+    }
+    .grow__profit {
+        flex-direction: column-reverse;
+        padding-bottom: 60px;
+    }
+    .grow__profit-text {
+        margin-top: 70px;
+    }
+    .Features {
+        height: auto;
+    }
+    .Cryptocurrencies {
+        height: auto;
+    }
+    .coin {
+        margin-bottom: 40px;
+    }
+    .Why-Crappo_Illustration img {
+        display: none;
+
+    }
+    .Why-Crappo_Content {
+        margin-top: 0px;
+
+    }
+    .calculate {
+        margin: 0 auto;
+        padding: 6.2rem 4.8rem 4.8rem;
+        background-color: white;
+        border-radius: 15px;
+        color: black;
+        text-align: left;
+        box-shadow: 0 2rem 15rem 0 rgba(57, 23, 119, 0.3);
+        margin-bottom: 10rem;
+    }
+    .Enter-hash-rate {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0px;
+    }
+    .Enter-hash-rate__input-text {
+        width: 75%;
+        margin: 0;
+    }
+    .Enter-hash-rate__input-rate {
+        width: 75%;
+        margin: 0;
+    }
+    .button-calc {
+        width: 60%;
+        margin: 0;
+        margin-top: 20px;
+    }
+    .calculate__body-t1, .calculate__body-t2, .calculate__body-t3 {
+        padding-left: 70px;
+    }
+    .Start__mining-wrapper { 
+        flex-direction: column;
+        align-items:center;
+
+    }
+    .Start__mining {
+        height: auto;
+    }
+    .form_email {
+        flex: 0 0 0;
+    }
+    .Start__mining-container {
+        width: 640px;
+        margin-top: 40px;;
+    }
+    .standard-list {
+        display: none;
+    }
+    .footer-container__1 {
+        justify-content: center;
+    }
+    .footer-container__2 {
+        justify-content: center;
+        margin-top: 40px;
+    }
+    .copyright{
+        margin-left: 60px;
+        margin-right: 50px;
+    }
+    .social-links {
+        margin-right: 60px;
+        margin-left: 30px;
+        padding-bottom: 40px;
+    }
+
+
+
+
+}
