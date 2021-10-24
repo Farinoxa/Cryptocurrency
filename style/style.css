@@ -51,7 +51,11 @@ html {
     letter-spacing: 0.01em;
     color: #FFFFFF;
     text-decoration: none;
-    
+    cursor: pointer;
+    transition: 0.3s cubic-bezier(0.25, 0.1, 0.46, 0.68) color;
+}
+.nav-link, a:hover {
+    color: #237fd4da;
 }
 .singIn {
     display: flex;
@@ -75,6 +79,11 @@ html {
     height: 24px;
     border-right: 1px solid #F2F2F2;
     padding-right: 24px;
+    cursor: pointer;
+    transition: 0.3s cubic-bezier(0.25, 0.1, 0.46, 0.68) color;
+}
+.login:hover {
+    color: #1e7ed8c0;
 }
 .register {
     margin-left: 24px;
@@ -90,6 +99,11 @@ html {
     line-height: 150%;
     color: #FFFFFF;
     text-align: center;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.register:hover {
+  background: #1e7ed8c0;
 }
 .header__section {
     display: flex;
@@ -173,6 +187,11 @@ html {
     border: none;
     display: flex;
     margin-top: 32px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.button_class1:hover {
+    background: #1e7ed8c0;
 }
 .text-button_class1 {
     font-family: Rubik;
@@ -265,7 +284,13 @@ h2 {
     text-align: center;
     color: #FFFFFF;
     margin-top: 48px;
+    cursor: pointer;
+    transition: 0.3s;
 }
+.button__learn-more:hover {
+    background: #1e7ed8c0;
+}
+
 .Trade-securely {
     height: 1490px;
     background:linear-gradient(180deg, rgba(13, 13, 43, 1) 30.67%, rgba(250, 251, 255, 1) 30.67%);    
@@ -345,6 +370,11 @@ h2 {
     text-align: center;
     color: #FFFFFF;
     margin-left: 48px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.button-calc:hover {
+    background: #1e7ed8c0;
 }
 .calculate__body-t1 {
     margin-top: 48px;
@@ -449,7 +479,7 @@ h2 {
     letter-spacing: 0.01em;
     color: #828282;
 }
-.button_coin-act {
+/* .button_coin-act {
     width: 205px;
     height: 64px;
     background: #3671E9;
@@ -478,6 +508,45 @@ h2 {
 .button_coin-arrow {
     width: 64px;
     height: 64px;
+} */
+.button_coin {
+    background-color: #FFFFFF;
+    font-size: 18px;
+    color: #FFFFFF;
+    text-decoration: none;
+    border-radius: 32px;
+    border: none;
+    padding: 0 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 205px;
+    margin: 0 auto;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.coin:hover .button_coin {
+    background-color: #3671E9;
+}
+.button_coin-text {
+    font-size: 18px;
+    font-weight: 500;
+    width: 0;
+    transition: 0.3s;
+}
+.coin:hover .button_coin-text {
+    width: 133px;
+}
+.button_coin-arrow_big {
+    background-color: #FFFFFF;
+    border-radius: 100%;
+    width: 64px;
+    height: 64px;
+    transform: scale(1);
+    transition: 0.5s ease border, 0.5s ease transform;   
+}
+.coin:hover .button_coin-arrow_big {
+    transform: scale(0.5);
 }
 .coins__type {
     min-width: 1200px;
@@ -489,13 +558,22 @@ h2 {
 .coin {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     width: 370px;
     height: 433px;
     border-radius: 16px;
     background-color: #fff;
-    padding: 48px 24px;
+    margin: 48px 24px;
+}
+.coin:hover {
+    background: #2B076E;
+}
+.coin:hover .coin__item-title {
+    color: #FFFFFF;
+}
+.coin:hover .coin__item-description {
+    color: #FFFFFF;
 }
 .Features h2 {
     width: 758px;
@@ -561,6 +639,11 @@ h2 {
     line-height: 150%;
     text-align: center;
     color: #FFFFFF;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.features-button__learn:hover {
+    background: #1e7ed8c0;
 }
 .detailed__statistics {
     width:1255px;
@@ -666,8 +749,11 @@ h2 {
     margin-right: 40px;
     padding: 10px 0;
 }
-.form_email-input>placeholder {
-    color: white;
+.Enter-hash-rate input[type="text"]::-webkit-input-placeholder {
+    color: #0D0D2B;
+}
+.form_email input[type="text"]::-webkit-input-placeholder {
+    color: #FFFFFF;
 }
 .form_email-btn {
     border: none;
@@ -677,8 +763,12 @@ h2 {
     font-weight: 500;
     padding: 18px 32px;
     border-radius: 32px;
+    cursor: pointer;
+    transition: 0.3s;
 }
-
+.form_email-btn:hover {
+    background-color: #ffffffbe;
+}
 
 .footer {
     background: #0d0d2b;
@@ -716,6 +806,9 @@ h2 {
     font-size: 16px;
     line-height: 38px;
     color: #e0e0e0;
+}
+.standard-list ul a:hover {
+    color: #237fd4da;
 }
   
 .kind-of-pays {
@@ -770,6 +863,9 @@ h2 {
   
 .social-links a {
     text-decoration: none;
+}
+.social-links a:hover {
+    transform: scale(1.1);
 }
   
 .copyright {
@@ -840,7 +936,6 @@ h2 {
         flex-direction: column;
         align-items: center;
         height: auto;
-        
     }
     .Trade-securely {
         height: auto;
