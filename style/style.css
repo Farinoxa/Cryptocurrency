@@ -3,19 +3,19 @@
 body,
 html {
     width: 100%;
-    min-width: 1440px;
+    max-width: 1440px;
     min-height: 100vh;
     background-color: #0D0D2B;
     margin: 0;
 }
 .header-wrapper {
-    width: 1200px;
+    max-width: 1440px;
     height: 850px;
     margin: auto;
 }
 .top {
     display: flex;
-    width: 1202px;
+    max-width: 1202px;
     margin: auto;
 }
 .logo {
@@ -75,7 +75,7 @@ html {
     color: #FFFFFF;
     margin-top: auto;
     margin-bottom: auto;
-    width: 43px;
+    max-width: 43px;
     height: 24px;
     border-right: 1px solid #F2F2F2;
     padding-right: 24px;
@@ -109,8 +109,9 @@ html {
     display: flex;
 }
 .value__proposition {
-    width: 588px;
-    height: 468px;
+    max-width: 588px;
+    height: auto;
+    margin: auto;
     margin-top: 131px;
 }
 .text-75 {
@@ -157,7 +158,7 @@ html {
     padding: 8px 11px 4px 16px;
 }
 .title {
-    width: 588px;
+    max-width: 588px;
     height: 228px;
     margin-top: 24px;
     font-family: Rubik;
@@ -168,7 +169,7 @@ html {
     color: #FFFFFF;
 }
 .header_text {
-    width: 435px;
+    max-width: 435px;
     height: 56px;
     font-family: Rubik;
     font-style: normal;
@@ -208,11 +209,15 @@ html {
     height: 32px;
     padding: 16px 0px;
 }
+.illustration {
+    max-width: 604px;
+    height: auto;
+}
 .numbers {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 1200px;
+    max-width: 1200px;
     height: 92px;
     margin: auto;
     margin-top: 100px;
@@ -220,7 +225,7 @@ html {
 .number {
     display: flex;
     align-items: center;
-    width: 334px;
+    max-width: 334px;
     height: 92px;
 }
 h2 {
@@ -242,6 +247,11 @@ h2 {
 }
 .number-logo {
     margin-right: 24px;
+}
+.Why-Crappo {
+    max-width: 1440px;
+    height: auto;
+    margin: auto;
 }
 .Why-Crappo_Content {
     display: flex;
@@ -292,7 +302,9 @@ h2 {
 }
 
 .Trade-securely {
+    max-width: 1440px;
     height: 1490px;
+    margin: auto;
     background:linear-gradient(180deg, rgba(13, 13, 43, 1) 30.67%, rgba(250, 251, 255, 1) 30.67%);    
 }
 .Trade-securely_title {
@@ -414,12 +426,12 @@ h2 {
     color: #828282;
 }
 .Cryptocurrencies {
-    width: 1200px;
+    max-width: 1200px;
     height: 617px;
     margin: auto;
 }
 .Cryptocurrencies h2 {
-    width: 741px;
+    max-width: 741px;
     height: 120px;
     margin: auto;
     margin-top: 100px;
@@ -540,8 +552,9 @@ h2 {
 .button_coin-arrow_big {
     background-color: #FFFFFF;
     border-radius: 100%;
-    width: 64px;
-    height: 64px;
+    max-width: 64px;
+    width: 100%;
+    height: auto;
     transform: scale(1);
     transition: 0.5s ease border, 0.5s ease transform;   
 }
@@ -549,11 +562,11 @@ h2 {
     transform: scale(0.5);
 }
 .coins__type {
-    min-width: 1200px;
+    max-width: 1200px;
     padding-top: 64px;
     margin: auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 .coin {
     display: flex;
@@ -575,6 +588,14 @@ h2 {
 .coin:hover .coin__item-description {
     color: #FFFFFF;
 }
+.coin:hover .coin__arrow {
+    width: 100%;
+}
+.coin:hover .button_coin-arrow_big {
+    max-width: 64px;
+    width: 100%;
+    height: 64px;
+}
 .Features h2 {
     width: 758px;
     height: 120px;
@@ -589,6 +610,8 @@ h2 {
     color: #FFFFFF;
 }
 .Features {
+    max-width: 1440px;
+    margin: auto;
     height: 1874px;
     background-color: #2B076E;
 }
@@ -606,7 +629,7 @@ h2 {
     height: 56px;
 }
 .features-h3 {
-    width: 454px;
+    max-width: 454px;
     height: 48px;
     font-family: Rubik;
     font-style: normal;
@@ -628,7 +651,7 @@ h2 {
 .features-button__learn {
     width: 161px;
     height: 59px;
-    margin-top: 32px;
+    margin-top: 24px;
     background: #3671E9;
     border-radius: 32px;
     border: none;
@@ -687,12 +710,12 @@ h2 {
     height: 84px;
 }
 .Start__mining {
-    width: 1440px;
+    max-width: 1440px;
     height: 392px;
     margin: auto;
 }
 .Start__mining-container {
-    width: 1200px;
+    max-width: 1200px;
     height: 216px;
     margin: auto;
     margin-top: 88px;
@@ -708,11 +731,11 @@ h2 {
     font-size: 32px;
     line-height: 150%;
     color: #FFFFFF;
-    width: 501px;
+    max-width: 501px;
     height: 48px;
 }
 .Start__mining-text p {
-    width: 348px;
+    max-width: 348px;
     height: 56px;
     margin-top: 16px;
     font-family: Rubik;
@@ -724,7 +747,8 @@ h2 {
     color: #FFFFFF;
 }
 .Start__mining-wrapper {
-    width: 1104px;
+    max-width: 1104px;
+    width: 90%;
     height: 120px;
     margin: auto;
     display: flex;
@@ -732,7 +756,7 @@ h2 {
     align-items: center;
 }
 .form_email {
-    width: 566px;
+    max-width: 566px;
     height: 55px;
     display: flex;
     justify-content: space-between;
@@ -771,13 +795,16 @@ h2 {
 }
 
 .footer {
+    max-width: 1440px;
+    margin: auto;
     background: #0d0d2b;
     margin-top: 80px;
 }
   
 .footer-container__1 {
+    max-width: 1440px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .footer-container__1>div {
@@ -822,7 +849,6 @@ h2 {
 }
   
 .cards-pay {
-    margin-left: 69px;
     width: 355px;
 }
   
@@ -848,17 +874,19 @@ h2 {
 } 
   
 .footer-container__2 {
+    max-width: 1440px;
     margin-top: 120px;
+    height: auto;
     padding-bottom: 80px;
     display: flex;
     justify-content: space-between;
 }
   
 .social-links {
-    margin-right: 120px;
     width: 248px;
     display: flex;
     justify-content: space-between;
+    margin-right: 120px;
 }
   
 .social-links a {
@@ -886,172 +914,752 @@ h2 {
     color: #FFFFFF;
 }
 .footer-container_main {
-    width: 1440px;
+    max-width: 1440px;
+    height: auto;
     margin: auto;
-
 }
 
-
-
-@media screen and (max-width: 600px){
+@media screen and (max-width: 1200px) {
+    .top {
+        width: 90%;
+        max-width: 1100px;
+        margin: auto;
+        justify-content: space-around;
+    }
+    .logo {
+        margin-top: 40px;
+        margin-left: 25px;
+    }
+    .header__section {
+        width: 90%;
+        max-width: 1100px;
+        margin: auto;;
+    }
+    .nav {
+        margin-top: 46px;
+        margin-left: 165px;
+        justify-content: space-between;
+    }
+    .singIn {
+        margin-top: 34px;
+        margin-left: 25px;
+    }
+    .value__proposition {
+        margin-top: 60px;
+    }
+    .title {
+        font-size: 48px;
+        line-height: 60px;
+        height: 180px;
+    }
+    .illustration> img {
+        max-width: 100%;
+        height: auto;
+    }
     .header-wrapper {
         height: auto;
     }
-    .nav__menu{
-        margin: 0 0 0 62px;
-    }
-    .nav{
-        margin-left: 0;
-    }
-    .top {
-        justify-content: center;
-    }
-    .header__section {
-        flex-direction: column;
-        align-items:center;
-        height: auto;
-    }
-    .numbers{
-        flex-direction: column;
+    .numbers {
         justify-content: space-around;
-        flex-wrap: wrap;
+        max-width: 1100px;
+        height: auto;
+        margin: auto;
+        margin-top: 60px;
+    }
+    .number-text> h2 {
+        font-size: 30px;
+    }
+    .number-logo> img {
+        max-width: 100%;
         height: auto;
     }
-    .number{
-        margin: 25px 0;
-    }
-    .Why-Crappo_Content{
-        flex-direction: column;
+    .Why-Crappo_Content {
+        width: 90%;
+        max-width: 1100px;
         height: auto;
-        align-items: center;
+        margin: auto;
     }
-    .Why-Crappo_Text{
-        margin-left: 0;
-        text-align: center;
-    }
-    .Why-Crappo_Text>p{
-        margin: 24px auto 0;
-    }
-    .coins__type {
-        flex-direction: column;
-        align-items: center;
+    .Why-Crappo_Illustration> img {
+        max-width: 100%;
         height: auto;
+    }
+    .Why-Crappo_Text {
+        max-width: 480px;
+        height: auto;
+    }
+    .Why-Crappo_Text h2 {
+        width: auto;
+        font-size: 31px;
+    }
+    .Why-Crappo_Text {
+        width: 50%;
+        margin-top: 55px;
+        margin-left: 50px;
+    }
+    .button__learn-more {
+        margin-top: 28px;
     }
     .Trade-securely {
         height: auto;
-        background: linear-gradient(180deg, rgba(13, 13, 43, 1) 20%, rgba(250, 251, 255, 1) 20%);
+        margin: auto;
+        background: linear-gradient(180deg, rgba(13, 13, 43, 1) 33%, rgba(250, 251, 255, 1) 33%);
     }
-    .Invest__Smart {
-        flex-direction: column-reverse;
+    .Trade-securely_title {
+        padding-top: 60px;
     }
-    .Features>div{
-        height: auto;
-        align-items: center;
-        text-align: center;
+    .Trade-securely_title h2 {
+        font-size: 30px;
     }
-    .Features>div p{
-        margin: 0;
-    }
-    .detailed__statistics {
-        flex-direction: column;
-        margin: 120px auto 0;
-    }
-    .detailed__statistics-text{
-        margin-left: 0;
-    }
-    .grow__profit {
-        flex-direction: column-reverse;
-        padding-bottom: 60px;
-    }
-    .grow__profit-text {
-        margin-top: 70px;
-    }
-    .Features {
-        height: auto;
-    }
-    .Cryptocurrencies {
-        height: auto;
-    }
-    .coin {
-        margin-bottom: 40px;
-    }
-    .Why-Crappo_Illustration img {
-        display: none;
-
-    }
-    .Why-Crappo_Content {
-        margin-top: 0px;
-
+    .Trade-securely_title p {
+        font-size: 16px;
+        margin-top: 20px;
     }
     .calculate {
-        margin: 0 auto;
-        padding: 6.2rem 4.8rem 4.8rem;
-        background-color: white;
-        border-radius: 15px;
-        color: black;
-        text-align: left;
-        box-shadow: 0 2rem 15rem 0 rgba(57, 23, 119, 0.3);
-        margin-bottom: 10rem;
+        max-width: 80%;
+        height: 22%;
+    }
+    .Enter-hash-rate__input-text {
+        width: 40%;
+    }
+    .Enter-hash-rate__input-rate {
+        width: 21%;
+    }
+    .button-calc {
+        width: 16%;
+    }
+    .calculate__body-t1 {
+        margin-top: 30px;
+        font-size: 14px;
+    }
+    .calculate__body-t2 {
+        margin-top: 12px;
+        font-size: 24px;
+    }
+    .calculate__body-t3 {
+        font-size: 14px;
+    }
+    .Cryptocurrencies {
+        width: 100%;
+        max-width: 1100px;
+        margin: auto;
+
+    }
+    .Cryptocurrencies h2 {
+        margin-top: 75px;
+        font-size: 32px;
+    }
+    .coins__type {
+        width: 100%;
+        max-width: 1100px;
+        margin: auto;
+        height: auto;
+        padding: 0;
+    }
+    .coin {
+        width: 31%;
+        max-width: 370px;
+        height: 345px;
+        box-sizing: border-box;
+    }
+    .coin__item-title {
+        font-size: 26px;
+        margin-top: 36px;
+    }
+    .coin__item-title sup {
+        font-size: 16px;
+    }
+    .coin__item-description {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .coin__logo{
+        max-width: 64px;
+    }
+    .coin__arrow {
+        width: 80%;
+    }
+    .Features {
+        width: auto;
+        max-width: 1199px;
+        margin: auto;
+        height: auto;
+        padding-bottom: 50px;
+    }
+    .Features-img> img {
+        width: 100%;
+        max-width: 580px;
+        height: auto;    
+    }
+    .Invest__Smart {
+        max-width: 1100px;
+        width: 95%;
+        margin: auto;
+        height: auto;
+        padding-top: 50px;
+    }
+    .detailed__statistics {
+        max-width: 1100px;
+        width: 95%;
+        margin: auto;
+        height: auto;
+        padding-top: 50px;
+    }
+    .grow__profit {
+        max-width: 1100px;
+        width: 95%;
+        margin: auto;
+        height: auto;
+        padding-top: 50px;
+    }
+    .Invest__Smart-text {
+        width: 50%;
+        max-width: 454px;
+        height: auto;
+    }
+    .Features h2{
+        padding-top: 75px;        
+    }
+    .detailed__statistics {
+        max-width: 1100px;
+        width: 95%;
+        margin: auto;
+        height: auto;
+    }
+    .detailed__statistics-text {
+        margin-left: 45px;
+        margin-top: 20px;
+    }
+    .grow__profit .Features-img> img {
+        max-width: 415px;
+    } 
+    .Start__mining{
+        max-width: 1100px;
+        width: 95%;
+        margin: auto;
+        height: 200px;
+        margin-top: 60px;
+    }
+    .Start__mining-container {
+        max-width: 1000px;
+        width: 95%;
+        margin: auto;
+        height: auto;
+    }
+    .Start__mining-text {
+        max-width: 35%;
+        height: auto;
+    }
+    .form_email {
+        max-width: 55%;
+        height: auto;
+    }
+    .Start__mining-text h3 {
+        font-size: 26px;
+        width: auto;
+    }
+    .Start__mining-text p {
+        font-size: 14px;
+        line-height: 22px;
+        margin: 0;
+    }
+    .Start__mining-text {
+        max-width: 850px;
+        width: 100%;
+        justify-content: space-around;
+        text-align: center;
+    }
+    .footer { 
+        width: 100%;
+        max-width: 1100px;
+        height: auto;
+        margin: auto;
+    }
+    .footer-container_main {
+        max-width: 1100px;
+        height: auto;
+        width: 95%;
+        margin: auto;
+    }
+    .footer .logo {
+        margin: 0;
+    }
+    .footer-container__1 {
+        justify-content: space-around;
+    }
+    .cards-pay {
+        width: 80%;
+        max-width: 290px;
+        height: auto;
+        margin: 0;
+    }
+    .standard-list {
+        width: auto;
+    }
+    .accept-pays{
+        font-size: 28px;
+    }
+    .kind-of-pays {
+        max-width: 355px;
+        width: 80%;
+        height: auto;
+    }
+    .kind-of-pays img {
+        max-width: 80%;
+        height: auto;
+    }
+    .footer-container__2 {
+        margin-top: 60px;
+        padding-bottom: 40px;
+
+    }
+}
+@media screen and (max-width: 900px) {
+    .top {
+        width: 95%;
+        max-width: 850px;
+        margin: auto;
+        justify-content: start;
+    }
+    .logo {
+        margin-top: 40px;
+        margin-left: 25px;
+    }
+    .header__section {
+        width: 95%;
+        max-width: 850px;
+        height: 445px;
+        margin: auto;
+        position: relative;
+    }
+    .nav, .singIn {
+        display: none;
+    }
+    .value__proposition {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 2;
+        margin-top: 30px;
+    }
+    .illustration {
+        position: absolute;
+        top: -25px;
+        right: 0px;
+        z-index: 1;
+        opacity: 0.7;
+        max-width: 384px;
+        width: 100%;
+        height: auto;
+    }
+    .button_class1 {
+        margin-top: 10px;
+        transform: scale(0.8);
+    }
+    .title {
+        max-width: 420px;
+    }
+    .numbers {
+        max-width: 850px;
+        width: 95%;
+        height: auto;
+        margin: auto;        
+        margin-top: 0;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .number-text h2 {
+        font-size: 24px;
+    }
+    .number-text p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .number-logo> img {
+        max-width: 80%;
+    }
+    .number-logo {
+        margin: 0;
+    }
+    .Why-Crappo_Content {
+        max-width: 850px;
+        width: 95%;
+        margin: auto;
+        height: auto;
+        flex-direction: column-reverse;
+    }
+    .Why-Crappo_Text {
+        max-width: 850px;
+        width: 95%;
+        height: auto;
+        margin: auto;
+        margin-top: 25px;
+    }
+    .Why-Crappo_Text>h2 {
+        max-width: 850px;
+        width: 95%;
+        height: auto;
+        margin: auto;
+        text-align: center;
+    }
+    .Why-Crappo_Text>p {
+        max-width: 850px;
+        width: 95%;
+        margin: auto;
+        height: auto;
+        margin: 0;
+        margin-right: 0;
+        margin-top: 10px;
+        text-align: center;
+    }
+    .button__learn-more {
+        margin: 0;
+        margin-top: 10px;
+        transform: scale(0.8);
+        z-index: 2;
+    }
+    .Why-Crappo_Illustration {
+        max-width: 650px;
+        width: 100%;
+        height: 350px;
+        margin: auto;
+        transform:translate3d(24px, -100px, 10px);
+    }
+    .Trade-securely {
+        max-width: 850px;
+        width: 100%;
+        margin: auto;
+        height: auto;
+        background: linear-gradient(180deg, rgba(13, 13, 43, 1) 26%, rgba(250, 251, 255, 1) 26%);
+    }
+    .Trade-securely_title {
+        max-width: 850px;
+        width: 95%;
+        padding-top: 30px;
+        margin: auto;
+        height: auto;
     }
     .Enter-hash-rate {
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin: 0px;
-    }
-    .Enter-hash-rate__input-text {
-        width: 75%;
-        margin: 0;
-    }
-    .Enter-hash-rate__input-rate {
-        width: 75%;
-        margin: 0;
-    }
-    .button-calc {
-        width: 60%;
-        margin: 0;
-        margin-top: 20px;
-    }
-    .calculate__body-t1, .calculate__body-t2, .calculate__body-t3 {
-        padding-left: 70px;
-    }
-    .Start__mining-wrapper { 
-        flex-direction: column;
-        align-items:center;
-
-    }
-    .Start__mining {
+        justify-content: space-around;
+        max-width: 850px;
+        width: 90%;
+        margin: auto;
         height: auto;
     }
-    .form_email {
-        flex: 0 0 0;
+    .Enter-hash-rate__input-text {
+        width: 100%;
+        height: auto;
+        margin: 0;
+        padding-top: 30px;
+        font-size: 18px;
+    }
+    .Enter-hash-rate__input-rate {
+        width: 100%;
+        height: auto;
+        margin: 0;
+        margin-top: 30px;
+        font-size: 18px;
+    }
+    .button-calc {
+        max-width: 140px;
+        width: 40%;
+        margin: 0;
+        margin-top: 20px;
+        transform: scale(0.8);
+        align-content: flex-start;
+    }
+    .calculate__body-t1 {
+        font-size: 12px;
+        margin-left: 36px;
+    }
+    .calculate__body-t2 {
+        margin-top: 8px;
+        font-size: 20px;
+        margin-left: 36px;
+    }
+    .calculate__body-t3 {
+        font-size: 12px;
+        margin: 0;
+        margin-left: 36px;
+        padding-bottom: 30px;
+    }
+    .calculate {
+        margin-top: 36px;
+    }
+    .Cryptocurrencies {
+        max-width: 850px;
+        width: 95%;
+        height: auto;
+        margin: auto;
+    }
+    .Cryptocurrencies h2 {
+        margin-top: 50px;
+        font-size: 30px;
+    }
+    .coins__type {
+        flex-direction: column;
+        align-items: center;
+    }
+    .coin {
+        max-width: 800px;
+        width: 100%;
+        height: 270px;
+        margin: auto;
+        justify-content: space-around;
+        transform: scale(0.8);
+    }
+    .coin__item-title {
+        margin: 0;
+    }
+    .Features {
+        max-width: 850px;
+        width: 100%;
+        height: auto;
+    }
+    .Features h2 {
+        padding-top: 50px;
+        max-width: 850px;
+        width: 95%;
+        height: auto;
+        font-size: 30px;
+    }
+    .Invest__Smart {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .Invest__Smart-text {
+        max-width: 850px;
+        width: 95%;
+        height: auto;
+        margin: auto;
+        text-align: center;
+    }
+    .Invest__Smart-text p {
+        max-width: 850px;
+        width: 95%;
+        height: auto;
+        margin: auto;
+        margin-top: 15px;
+    }
+    .detailed__statistics {
+        flex-direction: column;
+        align-items: center;
+    }
+    .detailed__statistics-text {
+        max-width: 850px;
+        width: 90%;
+        height: auto;
+        margin: auto;
+        margin: 0;
+        text-align: center;
+    }
+    .detailed__statistics-text p {
+        max-width: 850px;
+        width: 95%;
+        height: auto;
+        margin: auto;
+        margin-top: 15px;
+    }
+    .grow__profit {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .grow__profit-text {
+        max-width: 850px;
+        width: 90%;
+        height: auto;
+        margin: auto;
+    }
+    .grow__profit-text h3 {
+        max-width: 850px;
+        width: 95%;
+        margin: auto;
+        height: auto;
+        font-size: 28px;
+        margin-top: 30px;
+    }
+    .grow__profit-text p {
+        max-width: 850px;
+        width: 95%;
+        height: auto;
+        margin: auto;
+        margin-top: 15px;
+    }
+    .features-h3 {
+        max-width: 850px;
+        width: 95%;
+        margin: auto;
+        height: auto;
+        font-size: 28px;
+        margin-top: 30px;
+    }
+    .features-p {
+        max-width: 850px;
+        width: 95%;
+        margin: auto;
+        height: auto;
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .features-button__learn {
+        transform: scale(0.8);
+        margin: 0 auto;
+    }
+    .Start__mining-container {
+        flex-direction: column;
+    }
+    .Start__mining-wrapper {
+        max-width: 850px;
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        align-items: center;
     }
     .Start__mining-container {
         width: 640px;
         margin-top: 40px;;
     }
-    .standard-list {
+    .Start__mining {
+        height: auto;
+        margin-top: 30px;
+    }
+    .form_email {
+        flex: 0 0 0;
+    }
+    .Start__mining-container {
+        max-width: 850px;
+        width: 100%;
+        margin-top: 30px;;
+    }
+    .Start__mining-text h3 {
+        font-size: 24px;
+        max-width: 100%;
+    }
+    .Start__mining-text p {
+        max-width: 100%;
+        height: 30px;
+    }
+    .form_email {
+        max-width: 850px;
+        width: 70%;
+        margin-bottom: 20px;
+    }
+    .form_email-btn {
+        transform: scale(0.8);
+    }
+    .footer {
+        margin-top: 30px;
+    }
+    .footer .logo {
+        transform: scale(0.8);
+    }
+    .standard-list, .cards-pay {
         display: none;
     }
     .footer-container__1 {
-        justify-content: center;
+        justify-content: start;
+    }
+    .copyright {
+        margin-left: 30px;
+    }
+    .copyright span {
+        font-size: 12px;
+    } 
+    .social-links {
+        margin-right: 30px;
+        max-width: 150px;
     }
     .footer-container__2 {
-        justify-content: center;
-        margin-top: 40px;
+        margin-top: 20px;
     }
-    .copyright{
-        margin-left: 60px;
-        margin-right: 50px;
+}
+@media screen and (max-width: 600px) {
+    .value__proposition {
+        max-width: 570px;
+        width: 95%;
+        margin: auto;
+        height: auto;
+    }
+    .logo {
+        margin-top: 15px;
+        margin-left: 10px;
+        transform: scale(0.8);
+    }
+    .text_save {
+        transform: scale(0.8);
+        margin-left: 0;
+    }
+    .text_save {
+        margin-top: 15px;
+        position: relative;
+        left: -40px;
+    }
+    .title {
+        max-width: 320px;
+        font-size: 32px;
+        line-height: 38px;
+        height: auto;
+    }
+    .header_text {
+        margin-top: 14px;
+    }
+    .button_class1 {
+        position: relative;
+        left: -20px;
+        bottom: -20px;
+    } 
+    .illustration {
+        opacity: 0.5;
+    }
+    .header__section {
+        height: 370px;
+    }
+    .numbers {
+        flex-direction: column;
+        align-items: flex-start;
+        max-width: 280px;
+        margin: auto;
+        margin-bottom: 40px;
+    }
+    .Why-Crappo_Illustration {
+        transform: translate3d(24px, -60px, 10px);
+    }
+    .Why-Crappo_Content {
+        height: 540px;
+    }
+    .Trade-securely_title {
+        padding-top: 0;
+    }
+    .form_email {
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    .form_email-btn {
+        margin-top: 10px;
+    }
+    .footer-container__2 {
+        flex-direction: column-reverse;
+        align-items: flex-end;
+        margin-top: 10px;
+        padding-bottom: 20px;
     }
     .social-links {
-        margin-right: 60px;
-        margin-left: 30px;
-        padding-bottom: 40px;
+        transform: scale(0.8); 
+        margin-right: 0;       
     }
-
-
-
-
+    .copyright {
+        margin-left: 10px;
+    } 
+    .copyright span {
+        font-size: 10px;
+    }
+    .Cryptocurrencies h2 {
+        font-size: 25px;
+    }
+}
+@media screen and (max-width: 430px) {
+    .numbers {
+        margin-bottom: 0;
+    }
 }
