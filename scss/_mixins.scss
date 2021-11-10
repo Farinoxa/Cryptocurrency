@@ -1,0 +1,17 @@
+@mixin fontStyles {
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+}
+@mixin cursorPointer{
+    cursor: pointer;
+    transition: 0.3s;
+}
+@mixin flexSpaceBetween {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
