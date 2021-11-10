@@ -1259,6 +1259,28 @@ h2 {
 
 .social-links a {
   text-decoration: none;
+  width: 24px;
+  height: 24px;
+}
+.facebook {
+  background-image: url(/assets/social-media-sprites.png);
+  background-position: 0 0;
+}
+.instagram {
+  background-image: url(/assets/social-media-sprites.png);
+  background-position: -24px 0;
+}
+.youtube {
+  background-image: url(/assets/social-media-sprites.png);
+  background-position: -48px 0;
+}
+.twitter {
+  background-image: url(/assets/social-media-sprites.png);
+  background-position: -72px 0;
+}
+.linkedin {
+  background-image: url(/assets/social-media-sprites.png);
+  background-position: -96px 0;
 }
 
 .social-links a:hover {
